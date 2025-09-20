@@ -15,7 +15,7 @@ from openpyxl.styles import Font, Border, Side
 from openpyxl.utils import get_column_letter
 
 # Configure Google Generative AI
-genai.configure(api_key="API KEY")
+genai.configure(api_key="PLACE API KEY HERE.")
 
 # Extract text using OCR
 def extract_text(image_path):
